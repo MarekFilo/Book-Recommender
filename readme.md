@@ -45,6 +45,5 @@ book_title = "Harry Potter and the Sorcerer's Stone"
 similar_books = get_most_similar_books(book_title, similarity_matrix, df, top_n=5)
 
 # Displaying the result
-similar_books_table = similar_books.to_markdown(index=False)
-print(f"Similar books to '{book_title}':")
-print(similar_books_table)
+```
+![Similar Books](similar_books.png)
