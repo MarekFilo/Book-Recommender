@@ -47,3 +47,11 @@ similar_books = get_most_similar_books(book_title, similarity_matrix, df, top_n=
 # Displaying the result
 ```
 ![Similar Books](similar_books.png)
+
+## 8. How to Install and Run
+1. Clone this repository.
+2. Install required libraries:
+
+```bash
+pip install -r requirements.txt
+```
