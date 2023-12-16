@@ -35,7 +35,7 @@ Describes cosine similarity, a measure of similarity between two vectors, and ge
 Introduces a function to find similar books based on a user-provided title.
 
 ## 7. Example: Finding Similar Books
-Provides an example of how to find similar books based on user input.
+### Using the get_most_similar_books function
 
 ```python
 # Example: Finding Similar Books
@@ -45,5 +45,6 @@ book_title = "Harry Potter and the Sorcerer's Stone"
 similar_books = get_most_similar_books(book_title, similarity_matrix, df, top_n=5)
 
 # Displaying the result
+similar_books_table = similar_books.to_markdown(index=False)
 print(f"Similar books to '{book_title}':")
-print(similar_books.to_markdown(index=False))
+print(similar_books_table)
